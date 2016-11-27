@@ -2,16 +2,16 @@
 
 ## Description
 
-This is an Ansible role to install FitNesse acceptance testing framework on GNU/Linux servers.
+This is an Ansible role to install [FitNesse](http://fitnesse.org/) acceptance testing framework on GNU/Linux servers.
 
 ## Requirements
 
 ### Software Requirements
 
 - **Python 2.7** or higher (available in the targeted servers)
-- **Ansible 2.0** or higher (can be easily installed via `pip`. E.g: `sudo pip install ansible==2.0.0.2`)
+- **[Ansible 2.0](https://www.ansible.com/)** or higher (can be easily installed via `pip`. E.g: `sudo pip install ansible==2.0.0.2`)
 - **[Vagrant](https://www.vagrantup.com) 1.8** or higher (for testing purposes)
-- **Virtualbox** (for testing purposes with Vagrant)
+- **[Virtualbox](https://www.virtualbox.org/wiki/Downloads)** (for testing purposes with Vagrant)
 - **[Oh-my-box](https://github.com/abessifi/oh-my-box)** tool, optional, if you want to quickly provision and package a Vagrant base box with **Ansible** and **Ruby** pre-installed (recommanded to write and run acceptance tests with test-kitchen against the Ansible role).
 
 ## Supported Systems
